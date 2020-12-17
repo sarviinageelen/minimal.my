@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: "sarviinageelen/minimal.my/"
+  repo: "sarviinageelen/minimal.my"
   branch: main
 media_folder: "static/uploads"
 public_folder: "uploads"

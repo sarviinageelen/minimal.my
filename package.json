@@ -1,5 +1,5 @@
 {
-  "name": "minimals",
+  "name": "minimal.my",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sarviinageelen/minimals.git"
+    "url": "git+https://github.com/sarviinageelen/minimal.my.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sarviinageelen/minimals/issues"
+    "url": "https://github.com/sarviinageelen/minimal.my/issues"
   },
-  "homepage": "https://github.com/sarviinageelen/minimals#readme",
+  "homepage": "https://github.com/sarviinageelen/minimal.my#readme",
   "dependencies": {
     "fuse.js": "^6.4.3"
   }
