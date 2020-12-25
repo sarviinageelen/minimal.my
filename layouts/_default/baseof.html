@@ -2,36 +2,45 @@
 <html lang="en">
     <head>
         
+        <!-- Meta Tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         
+        <!-- Preload the fonts -->
         <link rel="preload" href="/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
         
-        <meta content="minimal.my → listing all things minimal" itemprop="name">
+        <!-- Titles -->
+        <meta content="minimal.my" itemprop="name">
+        <meta content="Minimal Products in Malaysia" name="twitter:title">
+        <meta content="Minimal Products in Malaysia" property="og:title">
+        <meta content="Minimal Products in Malaysia" property="og:site_name">
+        
+        <!-- Page Title -->
         <title>Minimal Products in Malaysia</title>
-        <meta content="minimal.my → listing all things minimal" property="og:site_name">
 
+        <!-- Favicons Icons --> 
         <link rel="apple-touch-icon" href="/favicons/placeholder.png" sizes="180x180">
         <link rel="icon" href="/favicons/placeholder.png" sizes="32x32" type="image/png">
         <link rel="icon" href="/favicons/placeholder.png" sizes="16x16" type="image/png">
         <link rel="mask-icon" href="/favicons/placeholder.svg" color="#23372d">
         <link rel="shortcut icon" href="/favicons/placeholder.ico">
         
-
+        <!-- Stylesheet -->
         {{ $styles := resources.Get "scss/main.scss" | toCSS (dict "outputStyle" "compressed") }}
         <link href="{{ $styles.RelPermalink }}" rel="stylesheet">
         
         <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-52M09P04RN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-52M09P04RN"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-  gtag('config', 'G-52M09P04RN');
-</script>
+            gtag('config', 'G-52M09P04RN');
+        </script>
 
     </head>
+    
     <body>
         {{ partial "header.html" . }}
 
