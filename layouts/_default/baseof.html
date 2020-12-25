@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
         
         <!-- Meta Tags -->
@@ -29,11 +30,10 @@
         <meta property="twitter:image" content="">
 
         <!-- Favicons Icons --> 
-        <link rel="apple-touch-icon" href="/favicons/placeholder.png" sizes="180x180">
-        <link rel="icon" href="/favicons/placeholder.png" sizes="32x32" type="image/png">
-        <link rel="icon" href="/favicons/placeholder.png" sizes="16x16" type="image/png">
-        <link rel="mask-icon" href="/favicons/placeholder.svg" color="#23372d">
-        <link rel="shortcut icon" href="/favicons/placeholder.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
         
         <!-- Stylesheet -->
         {{ $styles := resources.Get "scss/main.scss" | toCSS (dict "outputStyle" "compressed") }}
@@ -63,4 +63,5 @@
         {{ $js := resources.Get "js/main.js" | js.Build $opts}}
         <script type="application/javascript" src="{{ $js.RelPermalink }}" defer></script>
     </body>
+
 </html>
