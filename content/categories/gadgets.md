@@ -1,3 +1,3 @@
 ---
-title: Gadgets
+title: Mobile Devices
 ---
