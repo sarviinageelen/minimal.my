@@ -2,7 +2,7 @@
 title: Keyboards
 category: Computer Accessories
 products:
-  - productName: Keychron K2 Wireless Mechanical Keyboard
+  - productName: Keychron K2 Wireless
     productURL: https://shopee.com.my/Keychron-K2-V2-Wireless-Mechanical-Keyboard-i.326123835.5859263876
     productMaker: Keychron
     productMakerURL: https://www.keychron.com/
