@@ -1,5 +1,5 @@
 ---
-title: Keyboards
+title: Wireless Keyboards
 category: Computer & Accessories
 products:
   - productName: Keychron K2 Wireless
