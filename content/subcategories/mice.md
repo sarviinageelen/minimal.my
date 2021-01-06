@@ -1,6 +1,6 @@
 ---
-title: Mice
-category: Computer Accessories
+title: Wireless Mice
+category: Computer & Accessories
 products:
   - productName: Logitech MX Master 3
     productURL: https://shopee.com.my/Logitech-MX-Master-3-Advanced-Wireless-Mouse-with-Hyper-fast-Scroll-(FREE-SYE-Surface-SY-86-3001-Mousepad-Multi-Color)-i.58359596.4415162523
