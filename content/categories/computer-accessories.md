@@ -1,3 +1,3 @@
 ---
-title: Computer Accessories
+title: Computer & Accessories
 ---
