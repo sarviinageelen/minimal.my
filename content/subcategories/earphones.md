@@ -1,6 +1,6 @@
 ---
-title: Earphones
-category: Mobile Accessories
+title: Wireless Earphones
+category: Mobile & Gadgets
 products:
   - productName: Sony WF-1000XM3
     productMaker: Sony
