@@ -1,6 +1,6 @@
 ---
-title: Bags & Wallets
-category: Bags
+title: Backpacks
+category: Bags & Wallets
 products:
   - productName: Oxwhite Ultralight Slim Laptop Bag
     productMaker: Oxwhite
