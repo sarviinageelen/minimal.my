@@ -1,3 +1,3 @@
 ---
-title: Bags
+title: Bags & Wallets
 ---
