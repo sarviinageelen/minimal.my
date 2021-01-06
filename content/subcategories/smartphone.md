@@ -1,6 +1,6 @@
 ---
-title: Smartphones
-category: Mobile Devices
+title: Mobile Phones
+category: Mobile & Gadgets
 products:
   - productURL: https://shopee.com.my/Apple-iPhone-12-(Available-now)-i.304509804.6060702719
     productMaker: Apple
